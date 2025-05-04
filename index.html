@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Mother's Day</title>
+  <style>
+    body {
+      background: #fceeee;
+      font-family: 'Segoe UI', sans-serif;
+      color: #5a3e36;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 3% auto;
+      background: #fffdfd;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      text-align: center;
+    }
+    h1 {
+      color: #d94f4f;
+      font-size: 2.8em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin: 15px 0;
+    }
+    .signature {
+      margin-top: 30px;
+      font-style: italic;
+      color: #7b5a5a;
+    }
+    .heart {
+      font-size: 3em;
+      color: #d94f4f;
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    button {
+      background-color: #d94f4f;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+    button:hover {
+      background-color: #b83e3e;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="heart">♥</div>
+    <h1>Happy Mother's Day, Mum!</h1>
+    <img src="mum.jpg" alt="Beautiful Mum">
+    <p>
+      Today we honour a woman whose love knows no bounds. A devoted wife, a loving mother of four, and the soul of our family.
+    </p>
+    <p>
+      Your strength inspires me, your heart comforts me, and your smile makes everything better. Thank you for being the amazing mum you are.
+    </p>
+    <p class="signature">
+      With all my love,<br>
+      Abdulrahman Sulaiman
+    </p>
+    <button onclick="showMessage()">Click for a surprise</button>
+  </div>
+
+  <audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    function showMessage() {
+      alert("You're loved more than words can ever say. Happy Mother's Day, Mum!");
+    }
+  </script>
+
+</body>
+</html>
